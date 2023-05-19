@@ -1,0 +1,201 @@
+* {
+    margin: 0;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+  body, button{
+    font-family: "Titillium Web",sans-serif;
+  }
+  body{
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+  .wrapper{
+    width: 85%;
+    height: 100vh;
+    margin: 0 auto;
+    
+  }
+  header{
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.8em;
+    background-color: #FFF2A9;
+    border-radius: 20px;
+    align-items: center;
+    height: 12%;
+    width: 100%;
+    padding: 20px;
+  }
+  .navMenu{
+    display: flex;
+    justify-content: flex-end;
+  }
+  .navList{
+    display: flex;
+    justify-content: flex-end;
+  }
+  .navList a{
+    color: rgb(38,38,38);
+    line-height: 1;
+    font-family: 400;
+    font-style: normal;
+  }
+  .navList a:hover{
+    color: rgb(157, 160, 160);
+  }
+  footer{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+  }
+  .row{
+    display: flex;
+  }
+  a{
+    color: black;
+    text-decoration: none;
+  }
+  button{
+    color: white;
+    border: none;
+    
+    background-color: transparent;
+  }
+  .signup a{
+    color: #FFF;
+    font-size: 1em;
+  }
+  .navMenu{
+    display: flex;
+    justify-content: flex-end;
+  }
+  .headLogo{
+    width: 50px;
+    cursor: pointer;
+  }
+  .navButton{
+    margin: 20px;
+  }
+  .signup{
+    background-color: #FFC3C3;
+    border-radius: 20px;
+    margin: auto;
+    padding: 10px 30px;
+  }
+  ul{
+    list-style-type: none;
+  }
+  .list{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    
+  }
+  .list p{
+    font-family: "Titillium Web",sans-serif;
+    font-style: normal;
+    font-size: 12px;
+    font-weight: 200;
+    line-height: 1.4;
+    letter-spacing: 0em;
+    text-transform: none;
+    color: rgb(38,38,38);
+  }
+  .col-1{
+    
+    flex-direction: column;
+  }
+  .bottomLogo{
+    width: 75px;
+    cursor: pointer;
+  }
+  .column{
+    display: flex;
+    width: 60%;
+    padding-right: 20px;
+    justify-content: space-between;
+  }
+  .social{
+    display: flex;
+    justify-content: space space-between;
+    align-items: center;
+    margin-top: 5px;
+    height: 30px;
+  }
+  .fa{
+    margin: 0 5px;
+  }
+  .fa svg{
+    width: 20px;
+    height: 100%;;
+  }
+  .in{
+    height: 75px;
+  }
+  .in h4{
+    font-family: "Titillium Web",sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.4;
+    letter-spacing: 0.03em;
+    margin-right: calc(0.03em * -1);
+    text-transform: none;
+    color: rgb(56,56,56);
+  }
+  .sub{
+    padding-bottom: 0%;
+    font-family: "Titillium Web",sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 1.4;
+    letter-spacing: 0em;
+    text-transform: none;
+    color: rgb(38,38,38);
+    margin-top: 10px;
+  }
+  .set h3{
+    font-family: "Alfa Slab One",display;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1;
+    letter-spacing: 0.03em;
+    margin-right: calc(0.03em * -1);
+    text-transform: none;
+    color: rgb(56,56,56);
+  }
+  .footer-bottom{
+    display: flex;
+    justify-content: space-between;
+  }
+  #cc-visa, #cc-amex, #cc-mastercard, #cc-discover{
+    width: 45px;
+  }
+  .mail{
+    display: flex;
+    background-color: re;
+    
+  }
+  .email{
+    display: flex;
+    padding-top: 4px;
+    padding-right: 10px;
+    padding-bottom: 4px;
+    padding-left: 8px;
+    border-radius: 25px;
+    height: 50px;
+    box-shadow: 0px 0px 20px 0px rgba(77,69,69,0.75);
+    -webkit-box-shadow: 2px 1px 20px 0px rgba(77,69,69,0.75);
+    -moz-box-shadow: 2px 1px 20px 0px rgba(77,69,69,0.75);
+  }
+  .icon ul{
+    display: flex;
+  }
+  .email img{
+    width: 45px;
+  }

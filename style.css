@@ -50,6 +50,7 @@
     display: flex;
     flex-direction: column;
     margin-top: 20px;
+    position: relative;
   }
   .row{
     display: flex;
@@ -92,6 +93,7 @@
     display: flex;
     flex-direction: column;
     width: 40%;
+    margin-right: 50px;
     
   }
   .list p{
@@ -103,6 +105,7 @@
     letter-spacing: 0em;
     text-transform: none;
     color: rgb(38,38,38);
+    max-width: 60%;
   }
   .col-1{
     
@@ -178,7 +181,9 @@
   }
   .mail{
     display: flex;
-    background-color: re;
+    position: absolute;
+    right: 0;
+    bottom: 0;
     
   }
   .email{
@@ -192,10 +197,98 @@
     box-shadow: 0px 0px 20px 0px rgba(77,69,69,0.75);
     -webkit-box-shadow: 2px 1px 20px 0px rgba(77,69,69,0.75);
     -moz-box-shadow: 2px 1px 20px 0px rgba(77,69,69,0.75);
+    
   }
   .icon ul{
     display: flex;
   }
   .email img{
     width: 45px;
+  }
+  @media screen and (max-width: 768px) {
+    .wrapper {
+      width: 90%;
+      margin: 0 auto;
+  }
+  header{
+    visibility: hidden;
+  }
+}
+  @media screen and (max-width: 375px) {
+    .wrapper {
+      width: 90%;
+      padding: 20px;
+    }
+    header{
+      visibility: hidden;
+      height: 0;
+    }
+    footer{
+      width: 100vw;
+      display: flex;
+      flex-direction: column;
+      position: inherit;
+    }
+    .footer{
+      width: 100%;
+    }
+    .row{
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+    }
+    .in{
+      visibility: collapse;
+      height: 0;
+    }
+    .col-1{
+      display: flex;
+      flex-direction: column;
+    }
+    .column{
+      display: flex;
+      flex-direction: column;
+    }
+    .list{
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+    }
+    .list p{
+      max-width: fit-content;
+      font-size: 20px;
+      font-weight: 200;
+    }
+    .set h3{
+      font-size: 1.7em;
+      font-weight: 900;
+    }
+    .sub a{
+      font-size: 20px;
+      font-weight: 200;
+    }
+    .footer-bottom{
+      display: flex;
+      flex-direction: column;
+      margin-top: 20px;
+    }
+    .icon ul{
+      display: flex;
+      margin-bottom: 20px;
+    }
+    #cc-visa, #cc-amex, #cc-mastercard, #cc-discover{
+      width: 50px;
+    }
+    
+    #mail{
+      position: inherit;
+      order: 2;
+      margin-top: 20px;
+    }
+    #footer-bottom{
+      order: 3;
+    }
+    #footer{
+      order: 1;
+    }
   }
